@@ -1,0 +1,24 @@
+#navbar {
+    text-align:left;
+}
+
+#navbar li {
+    color:black;
+    text-align:left;
+}
+
+#navbar a {
+    text-decoration:none;
+    text-align:left;
+}
+
+#navbar hover {
+    text-decoration:underline;
+    color:black;
+}
+/*
+Problems with code
+1,Navbar wont listen to its css component
+2,.right width 100% = father than the footer and header? margin-right does not fix the problem
+3,two other sites need to be made (I will work on them later)
+*/
