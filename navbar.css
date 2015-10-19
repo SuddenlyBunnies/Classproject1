@@ -16,6 +16,12 @@
     text-decoration:underline;
     color:black;
 }
+
+#navbar img {
+    width:5em;
+    height:5em;
+    margin:.5em;
+}
 /*
 Problems with code
 1,Navbar wont listen to its css component

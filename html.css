@@ -3,7 +3,7 @@
     background-color:#026C61;
     z-index:1;
     position:static;
-    width:100%;
+    width:60em;
     height:5em;
     margin-bottom:.1em;
 }
@@ -14,7 +14,7 @@
 }
 
 h2:nth-child(1) {
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 h2:hover:nth-child(1) {
@@ -39,27 +39,19 @@ p:hover:nth-child(1) {
     text-align:center;
 }
 .right {
-    background-color:#357D7A;
+    background-color:#87BAB8;
     z-index:2;
     height:50em;
-    width:10.5em;
+    width:49.4em;
     position:absolute;
     margin-left: 10.6em;
     font-family:serif,Garamond;
 }
 
-.center {
-    margin:1em;
-    position:absolute;
-    z-index:3;
-    width:50em;
-    height:50em;
-    background-color:black;
-}
 .left {
     float:left;
     position:absolute;
-    z-index:4;
+    z-index:3;
     width:10.5em;
     height:50em;
     background-color:#357D7A;
@@ -69,6 +61,6 @@ p:hover:nth-child(1) {
     z-index:5;
     background-color:#1D6562;
     height:5em;
-    width:100%;
+    width:60em;
     margin-top:50.25em;
 }
