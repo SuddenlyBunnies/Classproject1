@@ -3,22 +3,23 @@
     background-color:#026C61;
     z-index:1;
     position:static;
-    width:60em;
+    width:83.9em;
     height:5em;
     margin-bottom:.1em;
 }
 
+#email {
+    float:left;
+    text-align:left;
+}
 #name{
     float:right;
     text-align:right;
 }
 
-h2:nth-child(1) {
+#header h2 {
     text-decoration:underline;
-}
-
-h2:hover:nth-child(1) {
-    color:#85265C;
+    text-align:center;
 }
 
 p:nth-child(1) {
@@ -35,16 +36,17 @@ p:hover:nth-child(1) {
 }
 
 #comercial {
-    font-size:11;
+    float:right;
+    font-size:.6em;
     text-align:center;
 }
 .right {
     background-color:#87BAB8;
     z-index:2;
     height:50em;
-    width:49.4em;
+    width:73.35em;
     position:absolute;
-    margin-left: 10.6em;
+    margin-left:10.6em;
     font-family:serif,Garamond;
 }
 
@@ -61,6 +63,6 @@ p:hover:nth-child(1) {
     z-index:5;
     background-color:#1D6562;
     height:5em;
-    width:60em;
+    width:83.9em;
     margin-top:50.25em;
 }
