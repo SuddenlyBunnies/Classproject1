@@ -1,26 +1,49 @@
 /* colors ___ */
+/*body {
+    background-image:url("https://onedrive.live.com/redir?resid=1D58B72D09649E77!22226&authkey=!ADW2BJX6cVjLXyM&v=3&ithint=photo%2cjpg");
+} */ /* <---- didnt work for some reason*/
+
 #header {
-    background-color:#026C61;
     z-index:1;
     position:static;
-    width:60em;
+    width:83.9em;
     height:5em;
     margin-bottom:.1em;
 }
 
+#email {
+    float:left;
+    text-align:left;
+}
 #name{
     float:right;
     text-align:right;
 }
 
-h2:nth-child(1) {
+#header h2 {
     text-decoration:underline;
+    text-align:center;
 }
 
-h2:hover:nth-child(1) {
-    color:#85265C;
+#html {
+    color:#008080;
 }
 
+h2 {
+    color:#0000b3;
+}
+
+h3 {
+    color:#000066;
+}
+
+h4 {
+    text-indent:1em;
+}
+
+p {
+    text-indent:1em;
+}
 p:nth-child(1) {
     float:left;
 }
@@ -31,20 +54,21 @@ a:nth-child(1) {
 }
 
 p:hover:nth-child(1) {
-    color:white;
+    color:blue;
 }
 
 #comercial {
-    font-size:11;
+    float:right;
+    font-size:.6em;
     text-align:center;
 }
 .right {
-    background-color:#87BAB8;
+    background-color:white;
     z-index:2;
     height:50em;
-    width:49.4em;
+    width:73.35em;
     position:absolute;
-    margin-left: 10.6em;
+    margin-left:10.6em;
     font-family:serif,Garamond;
 }
 
@@ -54,13 +78,13 @@ p:hover:nth-child(1) {
     z-index:3;
     width:10.5em;
     height:50em;
-    background-color:#357D7A;
+    background-color:white;
 }
 
 #footer {
     z-index:5;
-    background-color:#1D6562;
+    background-color:white;
     height:5em;
-    width:60em;
+    width:83.9em;
     margin-top:50.25em;
 }

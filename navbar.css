@@ -1,7 +1,7 @@
 #Navigation {
     text-align:center;
     font-size:1em;
-    font-family:serif,garamond,vernanda;
+    font-family:verdana,garamond;
     position:static;
 }
 
@@ -34,12 +34,14 @@
     margin-right:.5em;
     margin-bottom:.5em;
     transition:.5s all ease;
+    padding-right:5em;
 }
 
 #navbar img:hover{ /*SPIIIIIIN :D */
-    margin:1em;
-    width:8em; 
-    height:8em;    
+    width:5em;
+    height:5em;
+    margin-top:.5em;    
+    padding-left:5em;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 4000ms;
     -webkit-animation-iteration-count: infinite;

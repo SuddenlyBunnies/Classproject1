@@ -1,11 +1,11 @@
 /* colors http://paletton.com/#uid=13h0u0kdpuO4tQe8IEMiopMmYkT */
 #header {
-    background-color:#026C61;
     z-index:1;
     position:static;
     width:83.9em;
     height:5em;
     margin-bottom:.1em;
+    font-family:verdana,Garamond;
 }
 
 #email {
@@ -22,6 +22,13 @@
     text-align:center;
 }
 
+h4 {
+    text-indent:1em;
+}
+
+p {
+    text-indent:1em;
+}
 p:nth-child(1) {
     float:left;
 }
@@ -41,13 +48,13 @@ p:hover:nth-child(1) {
     text-align:center;
 }
 .right {
-    background-color:#87BAB8;
+    background-color:#white;
     z-index:2;
     height:50em;
     width:73.35em;
     position:absolute;
     margin-left:10.6em;
-    font-family:serif,Garamond;
+    font-family:verdana,Garamond;
 }
 
 .left {
@@ -56,13 +63,15 @@ p:hover:nth-child(1) {
     z-index:3;
     width:10.5em;
     height:50em;
-    background-color:#357D7A;
+    background-color:white;
+    font-family:verdana,Garamond;
 }
 
 #footer {
     z-index:5;
-    background-color:#1D6562;
+    background-color:white;
     height:5em;
     width:83.9em;
     margin-top:50.25em;
+    font-family:verdana,Garamond;
 }
